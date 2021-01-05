@@ -22,7 +22,7 @@ model = pickle.load(open('model.pkl','rb'))
 def Home():
     return render_template('index.html')
 
-@app.route('/predict',methods=['POST','GET'])
+@app.route('/predict',methods=['POST'])
 def predict():
     Age = request.form.get('Age')
     BusinessTravel = request.form['BusinessTravel']
