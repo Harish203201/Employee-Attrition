@@ -2,7 +2,6 @@ Flask==1.1.2
 imblearn==0.0
 json5==0.9.5
 jsonify==0.5
-MarkupSafe==1.1.1
 matplotlib @ file:///C:/ci/matplotlib-base_1603355780617/work
 numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
 numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
